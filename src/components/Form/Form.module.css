@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  width: 300px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.title {
+  margin-bottom: 20px;
+}
+.text {
+  margin-bottom: 20px;
+}

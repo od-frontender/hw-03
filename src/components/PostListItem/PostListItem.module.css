@@ -1,0 +1,14 @@
+.post {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.title {
+  font-weight: 700;
+  width: 500px;
+}
