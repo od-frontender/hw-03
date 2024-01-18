@@ -11,7 +11,11 @@ export default function PostListItem({ post, deleteItem, handlePostComplete }) {
       <Button text="Delete" clickBtn={deleteItem} />
       <label>
         Completed:{' '}
-        <input type="checkbox" checked={post.completed} onChange={() => handlePostComplete(post)} />
+        <input
+          type="checkbox"
+          checked={post.completed ? post.completed : false}
+          onChange={() => handlePostComplete(post)}
+        />
       </label>
     </li>
   );
